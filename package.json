@@ -11,6 +11,8 @@
     "teachcode": "./bin/index.js"
   },
   "scripts": {
+    "test:jest": "jest",
+    "test:coverage": "jest --coverage",
     "test": "mocha test/index.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -57,6 +59,7 @@
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^2.3.0",
+    "jest": "^24.9.0",
     "lint-staged": "^8.1.7",
     "mocha": "^5.2.0",
     "prettier": "^1.17.1",
